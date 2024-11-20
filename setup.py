@@ -5,9 +5,8 @@ from typing import List
 def get_requirements(filename:str)->List[str]:
     """Return a list of requirements from a file.
 
-    The file is expected to have one requirement per line. Lines that start
-    with "#" are ignored.
-
+    The file is expected to have one requirement per line.
+    
     Parameters
     ----------
     filename : str
